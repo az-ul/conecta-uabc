@@ -1,0 +1,385 @@
+body {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	border-bottom: solid;
+	border-color: #222;
+	border-width: 1px;
+	height: 74px;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+header img {
+	padding-left: 40px;
+	cursor: pointer;
+}
+.contenedor-nav {
+	padding-top: 25px;
+	padding-bottom: 24px;
+
+}
+
+.contenedor-nav2 {
+	padding-left: 117px;
+	padding-right: 100px;
+	display: flex;
+	gap: 50px;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.head ul {
+	list-style: none; 
+	margin-top: 4px;
+	display: flex;
+}
+.head li {
+	display: inline;
+	padding-right: 30px;
+}
+.head a {
+	text-decoration: none;
+	font-weight: 550;
+	color: white;
+	font-size: 15.8px;
+	transition: font-weight 0.1s;
+}
+.head a:hover {
+	font-weight: 800;
+}
+
+.prin {
+	flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    min-height: 45vh;
+    padding-top: 132px;
+    padding-bottom: 48px;
+    display: flex;
+}
+
+.logo-prin {
+    margin-bottom: 30px;
+}
+
+.boton-signup {
+	background-color: black;
+	border: solid, 2px;
+	border-color: white;
+	border-radius: 40px;
+	font-size: 20px;
+	font-weight: 800;
+	color: white;
+	text-align: center;
+	padding: 12px, 24px;
+	width: 220px;
+	height: 68px;
+	transition: all 0.5s;
+}
+
+.boton-signup:hover {
+	border-width:2.5px;
+	color: red;
+	border-color: red;
+    cursor: pointer;
+}
+
+video {
+	border-bottom: solid;
+	border-top: solid;
+	border-color: #222;
+	border-width: 1px;
+	margin-top: 46px;
+	width: 100%;
+	height: 100%;
+    cursor: pointer;
+}
+
+
+.subtit {
+	margin-top: 73px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.mini-subtit {
+	padding-left: 110px;
+	padding-right: 100px;
+	display: inline-flex;
+	gap: 790px;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.mini-subtit p {
+	color: white;
+}
+
+.cont-tab {
+	margin-top: 27px;
+	border-top: solid;
+	border-color: white;
+	border-width: 4px;
+	width: 1260px;
+	margin-bottom: 130px;
+}
+
+.fila {
+	padding-top: 7px;
+	padding-bottom: 10px;
+	display: flex;
+	gap: 12px;
+	line-height: 22px;
+	border-bottom: solid;
+	border-color: #222;
+	border-width: 2px;
+	transition: background-color 0.1s;
+}
+.fila:hover {
+	background-color: #0a0a0a;
+}
+
+.filau {
+	padding-top: 7px;
+	padding-bottom: 10px;
+	display: flex;
+	gap: 12px;
+	line-height: 22px;
+	transition: background-color 0.1s;
+}
+
+.filau:hover {
+	background-color: #0a0a0a;
+}
+
+.datos {
+	display: flex;
+}
+.datos p {
+	color: white;
+	font-size: 24px;
+}
+
+.fech {
+	text-align: left;
+	font-weight: 550;
+	padding-right: 20px;
+}
+
+.fecha {
+	text-align: left;
+	font-weight: 550;
+	margin-right: 20px;
+}
+
+.lug {
+	text-align: left;
+	font-weight: 800;
+}
+.luga {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 150px;
+}
+.lugb {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 150px;
+}
+.lugc {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 150px;
+}
+.lugd {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 220px;
+}
+.luge {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 220px;
+}
+.lugf {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 270px;
+}
+.lugg {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 270px;
+}
+.lugh {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 220px;
+}
+.lugi {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 270px;
+}
+.lugj {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 360px;
+}
+.lugk {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 400px;
+}
+.lugl {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 400px;
+}
+.lugm {
+	text-align: left;
+	font-weight: 800;
+	padding-right: 410px;
+}
+
+.ub {
+	text-align: right;
+	font-weight: 800;
+}
+
+a {
+	text-decoration: none;
+}
+
+.opc {
+	padding-top: 30px;
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+}
+.opci {
+	padding-top: 10px;
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+}
+.wl {
+	background-color: black;
+	border: solid, 2px;
+	border-color: white;
+	font-size: 22px;
+	font-weight: 550;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 48px;
+	margin-right: 15px;
+    cursor: pointer;
+}
+
+.sd {
+	background-color: white;
+	border: solid, 2px;
+	border-color: white;
+	font-size: 22px;
+	font-weight: 550;
+	color: black;
+	text-align: center;
+	width: 150px;
+	height: 48px;
+    cursor: pointer;
+}
+
+
+
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.thumbnails img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.scrollbar {
+  width: 1px;
+  height: 720px;
+  background: #ccc;
+  display: block;
+  margin: 0 0 0 8px;
+}
+.thumb {
+  width: 1px;
+  position: absolute;
+  height: 0;
+  background: #000;
+}
+.slides {
+  margin: 0 16px;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+  width: calc(540px + 1rem);
+  padding: 0 0.25rem;
+  height: 720px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+.slides > div {
+  scroll-snap-align: start;
+}
+.slides img {
+  width: 540px;
+  object-fit: contain;
+}
+.slides::-webkit-scrollbar {
+  display: none;
+}
+const slideGallery = document.querySelector('.slides');
+const slides = slideGallery.querySelectorAll('div');
+const scrollbarThumb = document.querySelector('.thumb');
+const slideCount = slides.length;
+const slideHeight = 720;
+const marginTop = 16;
+const scrollThumb = () => {
+  const index = Math.floor(slideGallery.scrollTop / slideHeight);
+  scrollbarThumb.style.height = `${((index + 1) / slideCount) * slideHeight}px`;
+};
+const scrollToElement = el => {
+  const index = parseInt(el.dataset.id, 10);
+  slideGallery.scrollTo(0, index * slideHeight + marginTop);
+};
+document.querySelector('.thumbnails').innerHTML += [...slides]
+  .map(
+    (slide, i) => `<img src="${slide.querySelector('img').src}" data-id="${i}">`
+  )
+  .join('');
+document.querySelectorAll('.thumbnails img').forEach(el => {
+  el.addEventListener('click', () => scrollToElement(el));
+});
+slideGallery.addEventListener('scroll', e => scrollThumb());
+scrollThumb();
